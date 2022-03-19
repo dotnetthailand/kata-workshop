@@ -15,6 +15,7 @@ Example Output
 - [ ] Can Test a Single Number
 - [ ] Can Test numbers from 1 to 100 (By prints in the example output)
 - [ ] Can Test `ArgumentException` (Input Validation)
+- [ ] Dessign semantic naming conventions
  
 ## Example Code
 
