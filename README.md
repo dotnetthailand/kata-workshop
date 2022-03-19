@@ -8,6 +8,10 @@
 | JavaScript | [![js CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/js.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/js.yml)      | Python  | [![Python CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/python.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/python.yml)      |
 | TypeScript | [![ts CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/ts.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/ts.yml)      | Rust    | [![Rust CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/rust.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/rust.yml)      |
 
+## Starter Templates
+- [.NET Core 6 Starter](https://github.com/dotnetthailand/kata-workshop-dotnet6-starter)
+- [Go Lang Starter](https://github.com/dotnetthailand/kata-workshop-golang-starter)
+
 ## Resources
 
 - [https://kata-log.rocks/](https://kata-log.rocks/)
