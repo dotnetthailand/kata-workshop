@@ -8,6 +8,14 @@
 | JavaScript | [![js CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/js.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/js.yml)      | Python  | [![Python CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/python.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/python.yml)      |
 | TypeScript | [![ts CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/ts.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/ts.yml)      | Rust    | [![Rust CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/rust.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/rust.yml)      |
 
+## Resources
+
+- [https://kata-log.rocks/](https://kata-log.rocks/)
+- [https://www.somkiat.cc/kata-is-way-to-learn-tdd/](https://www.somkiat.cc/kata-is-way-to-learn-tdd/)
+- [https://github.com/wix/tdd-katas](https://github.com/wix/tdd-katas)
+- [https://github.com/garora/TDD-Katas](https://github.com/garora/TDD-Katas)
+- <https://github.com/gamontal/awesome-katas>
+
 ## Ref
 
 Original: https://github.com/swkBerlin/kata-bootstraps (For other Languages)
