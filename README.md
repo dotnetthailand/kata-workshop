@@ -11,11 +11,12 @@
 ## Starter Templates
 - [.NET Core 6 Starter](https://github.com/dotnetthailand/kata-workshop-dotnet6-starter) - XUnit, FluentAssertions, NSubstitute
 - [Go Lang Starter](https://github.com/dotnetthailand/kata-workshop-golang-starter) - Testify
+- Other [failing test projects](templates) starter
 
 ## Repo Structure
-- [templates](/tree/main/templates) - Kata Starter Template for Many Languages, original by [Softwerkskammer](https://github.com/swkBerlin/kata-bootstraps)
-- [workshop](/tree/main/exercises) - Workshop Execerise order by complexity
-- [exercises](/tree/main/exercises) - Other problem and Exercises
+- [templates](templates) - Kata Starter Template (Empty projects for different languages with a failing test), original by [Softwerkskammer](https://github.com/swkBerlin/kata-bootstraps)
+- [workshop](workshop) - Workshop Execerise order by complexity
+- [exercises](exercises) - Other problem and Exercises
 
 ## Resources
 
@@ -28,5 +29,3 @@
 ## Ref
 
 Original: https://github.com/swkBerlin/kata-bootstraps (For other Languages)
-
-[rust-ci-badge]: https://github.com/dotnetthailand/kata-workshop/actions/workflows/rust.yml/badge.svg
