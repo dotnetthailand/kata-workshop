@@ -2,7 +2,7 @@
 
 ## Build Status (GitHub Actions)
 
-|    Image   | Status |  Image  | Status |
+|    Langauge   | Status |  Langauge  | Status |
 |:----------:|:------:|:-------:|:------:|
 | .NET       | ?      | Go Lang | [![GO CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/go.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/go.yml)      |
 | JavaScript | [![js CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/js.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/js.yml)      | Python  | [![Python CI](https://github.com/dotnetthailand/kata-workshop/actions/workflows/python.yml/badge.svg)](https://github.com/dotnetthailand/kata-workshop/actions/workflows/python.yml)      |
