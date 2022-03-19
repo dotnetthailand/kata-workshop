@@ -24,21 +24,21 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: OK fails and string found
-        working-directory: .scripts
+        working-directory: templates/.scripts
         run: |
           rm -rf temp.txt | true
           sh assure_failing_test.sh 'echo expacted_string && fails' 'expacted_string' > temp.txt
           grep "Successfully failed a test" temp.txt
 
       - name: FAIL string found but does not fail
-        working-directory: .scripts
+        working-directory: templates/.scripts
         run: |
           rm -rf temp.txt | true
           ! sh assure_failing_test.sh 'echo expacted_string && true' 'expacted_string' > temp.txt
           grep "Please make sure there is a failing test example!" temp.txt
 
       - name: FAIL fails but string not found
-        working-directory: .scripts
+        working-directory: templates/.scripts
         run: |
           rm -rf temp.txt | true
           ! sh assure_failing_test.sh 'echo expacted_string && false' 'string_not_found' > temp.txt

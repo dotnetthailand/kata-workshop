@@ -36,7 +36,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: jasmine-node
-        working-directory: js/jasmine-node
+        working-directory: templates/js/jasmine-node
         run: |
           npm ci
           npm run build --if-present
@@ -45,7 +45,7 @@ jobs:
           CI: true
 
       - name: jest-tests
-        working-directory: js/jest-tests
+        working-directory: templates/js/jest-tests
         run: |
           npm ci
           npm run build --if-present
@@ -54,7 +54,7 @@ jobs:
           CI: true
 
       - name: mocha-tests
-        working-directory: js/mocha-tests
+        working-directory: templates/js/mocha-tests
         run: |
           npm ci
           npm run build --if-present

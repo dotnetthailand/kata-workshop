@@ -35,7 +35,7 @@ jobs:
 
       ### ts/
       - name: typescript-jest
-        working-directory: ts/typescript-jest
+        working-directory: templates/ts/typescript-jest
         run: |
           yarn install
           yarn check-types
@@ -43,7 +43,7 @@ jobs:
           yarn test:ensure-failure
 
       - name: typescript-jest-fast-check
-        working-directory: ts/typescript-jest-fast-check
+        working-directory: templates/ts/typescript-jest-fast-check
         run: |
           yarn install
           yarn check-types

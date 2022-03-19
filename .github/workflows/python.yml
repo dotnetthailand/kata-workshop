@@ -37,11 +37,11 @@ jobs:
 
       #### BEGIN pytest
       - name: Install dependencies
-        working-directory: python/pytest
+        working-directory: templates/python/pytest
         run: |
           python -m pip install --upgrade pip
       - name: Lint with flake8
-        working-directory: python/pytest
+        working-directory: templates/python/pytest
         run: |
           pip install flake8
           # stop the build if there are Python syntax errors or undefined names
@@ -49,20 +49,20 @@ jobs:
           # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
-        working-directory: python/pytest
+        working-directory: templates/python/pytest
         run: |
           pip install -r requirements.txt
           python -m pytest -k test_correct_greeting
 
       - name: assure one failing test
-        working-directory: python/pytest
+        working-directory: templates/python/pytest
         run: "sh ../../.scripts/assure_failing_test.sh 'python -m pytest tests/test_thing_fixture.py' 'AssertionError: assert'"
 
       #### END pytest
 
       #### BEGIN codewars
       - name: Test with codewars
-        working-directory: python/codewars
+        working-directory: templates/python/codewars
         run: |
           pip install -r requirements.txt
           python tests/example.py
@@ -77,6 +77,6 @@ jobs:
 
       #### BEGIN pytest
       - name: docker pytest
-        working-directory: python/pytest
+        working-directory: templates/python/pytest
         run: "sh ../../.scripts/assure_failing_test.sh './docker_test.sh' 'AssertionError: assert'"
       #### END pytest

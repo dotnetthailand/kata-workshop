@@ -26,5 +26,5 @@ jobs:
         working-directory: rust
         run: cargo build --verbose
       - name: Run tests
-        working-directory: rust
+        working-directory: templates/rust
         run: cargo test test_should_not_fail --verbose
