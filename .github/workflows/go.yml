@@ -3,16 +3,16 @@ name: GO CI
 on:
   push:
     paths:
-      - 'golang/**'
+      - 'templates/golang/**'
       - '.github/workflows/go**'
   pull_request:
     paths:
-      - 'golang/**'
+      - 'templates/golang/**'
       - '.github/workflows/go**'
 
-  schedule:
-    # weekly build every FRI
-    - cron: "0 6 * * 5"
+  # schedule:
+  #   # weekly build every FRI
+  #   - cron: "0 6 * * 5"
 
 jobs:
 

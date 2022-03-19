@@ -3,16 +3,16 @@ name: Python CI
 on:
   push:
     paths:
-      - 'python/**'
+      - 'templates/python/**'
       - '.github/workflows/python**'
   pull_request:
     paths:
-      - 'python/**'
+      - 'templates/python/**'
       - '.github/workflows/python**'
 
-  schedule:
-    # weekly build every FRI
-    - cron: "0 6 * * 5"
+  # schedule:
+  #   # weekly build every FRI
+  #   - cron: "0 6 * * 5"
 
 jobs:
   matrix_build:

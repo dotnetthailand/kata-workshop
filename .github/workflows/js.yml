@@ -3,17 +3,17 @@ name: js CI
 on:
   push:
     paths:
-      - 'js/**'
+      - 'templates/js/**'
       - '.github/workflows/js**'
 
   pull_request:
     paths:
-      - 'js/**'
+      - 'templates/js/**'
       - '.github/workflows/js**'
 
-  schedule:
-    # weekly build every FRI
-    - cron: "0 6 * * 5"
+  # schedule:
+  #   # weekly build every FRI
+  #   - cron: "0 6 * * 5"
 
 jobs:
 

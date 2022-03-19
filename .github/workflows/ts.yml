@@ -3,17 +3,17 @@ name: ts CI
 on:
   push:
     paths:
-      - 'ts/**'
+      - 'templates/ts/**'
       - '.github/workflows/ts**'
 
   pull_request:
     paths:
-      - 'ts/**'
+      - 'templates/ts/**'
       - '.github/workflows/ts**'
 
-  schedule:
-    # weekly build every FRI
-    - cron: "0 6 * * 5"
+  # schedule:
+  #   # weekly build every FRI
+  #   - cron: "0 6 * * 5"
 
 jobs:
 
