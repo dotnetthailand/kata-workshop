@@ -1,3 +1,3 @@
 # Kata Workshop
 
-Original: https://github.com/swkBerlin/kata-bootstraps (For other Languages)
+Original: https://github.com/swkBerlin/katdota-bootstraps (For other Languages)
